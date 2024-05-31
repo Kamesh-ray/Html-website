@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainpage{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.7)50%,rgba(0, 0, 0, 0.7)50%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    width: 380px;
+    height: 550px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    left: 580px;
+    position: absolute;
+    top: 100px;
+}
+.form h1{
+    color: orange;
+    padding: 20px;
+    text-align: center;
+}
+.form input{
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border:solid 1px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: orange;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+.form input:focus{
+    outline: none;
+}
+.form ::placeholder{
+    color: white;
+}
+.form .sub {
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.form .sub a{
+    text-align: center;
+    padding: 5x;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.form .sub:hover{
+    background-color: white;
+}
+
+.or{
+    margin-left: 40px;
+    font-size: 30px;
+    color: orange;
+    margin-top: 20px;
+}
+
+.help {
+    margin-top: 40px;
+margin-left: 50px;
+font-size: 20px;
+}
+.help a{
+    text-decoration: none;
+    color: orange;
+    transition: 0.2s ease-in-out;
+}
+.help a:hover{
+    color: white;
+}
+.privacy{
+    margin-left: 30px;
+    color: white;
+    margin-top: 120px;
+}
+.privacy a{
+    font-size: 20px;
+    color: orange;
+}

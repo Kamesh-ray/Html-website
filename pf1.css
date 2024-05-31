@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(trffss.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+}
+.icon{
+    
+    width: 200px;
+    height: 70px;
+    float:left;
+}
+
+.logo{
+    float: left;
+    color:  rgb(255, 153, 0);
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+.menu{
+    float: left;
+    padding: 10px;
+}
+ul{
+    float: left;
+    padding: 30px;
+    margin-left: 6rem;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+ul li a:hover{
+    color:   rgb(255, 153, 0);
+}
+.searchbar{
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+}
+.srch{
+
+    font-family: Arial;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid   rgb(255, 153, 0);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+::placeholder{
+color: white;
+}
+.btn{
+    width:80px;
+    height: 40px;
+    background:   rgb(255, 153, 0);
+    border: 2px solid   rgb(255, 153, 0);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.btn:hover{
+    color: black;
+    background-color:   rgb(255, 153, 0);
+}
+.srch:focus{
+    outline:none ;
+}
+.btn:focus{
+    outline:none;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 60px;
+    display: inline;
+}
+.me,.para,.cn{
+    margin-left: 15px;
+}
+.me{font-style: italic;
+color:   rgb(255, 153, 0);
+letter-spacing: 2px;
+margin-top: 30px;
+font-size: 20px;}
+
+.content .para{
+    letter-spacing: 1.5px;
+    font-family:'Times New Roman';
+    font-size: 18px;
+}
+
+.content .cn{
+    height: 30px;
+    width: 90px;
+    background:   rgb(255, 153, 0);
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+.cn:hover{
+    background-color: white;
+}
+
+.form{
+    width: 280px;
+    height: 450px;
+    background:linear-gradient(rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+    position: absolute;
+    padding: 25px;
+    border-radius: 12px;
+    left : 1000px;
+    top: 150px;
+}
+
+.form h2{
+    color:   rgb(255, 153, 0);
+    background:rgb(238, 232, 222);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form input{
+margin-top: 30px;
+height: 40px;
+width: 250px;
+background: transparent;
+border: 1px solid   rgb(255, 153, 0);
+border-left: none;
+border-right: none;
+border-top: none;
+color:   white;
+font-size: 14px;
+letter-spacing: 1px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form .login{
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+    /* align-items: center; */
+    border: none;
+    border-color:   rgb(255, 153, 0);
+    background-color:   rgb(255, 153, 0);
+    border-radius: 5px;
+    
+}
+.form .login a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form .login:hover{
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.link{
+    color: white;
+    font-size: 15px;
+    margin-top: 18px;
+    text-align: center;
+}
+.form .sign a{
+    color: aqua;
+    font-size: 21px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 70px;
+}
+
+.form .sign a:hover{
+    color:   rgb(255, 153, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.forgot{
+    margin-top: 40px;
+    text-align: center;
+}
+.forgot a{
+    color: rgb(28, 252, 8);
+}
+
+.form .pl{
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.icons a{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a:hover{
+    color:   rgb(255, 153, 0);
+}
+#help a{
+    font-size: 13px;
+    color: black;
+    transition: 0.2s ease-in-out;
+    background:   rgb(255, 153, 0);
+    margin-left:42%;
+    text-decoration: none;
+    position: absolute;
+    bottom: -35px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+}
+#help a:hover{
+background-color: white;
+}
+
+#jsp{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}
